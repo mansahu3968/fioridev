@@ -1,0 +1,26 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <f:SimpleForm id="SimpleFormToolbar"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			singleContainerFullSize="false"
+			ariaLabelledBy="Title1" >
+
+                <Label text="Employee Name" />
+				<Input />
+				<Label text="Employee Id" />
+				<Input>
+				</Input>
+                <Label text="Department" />
+				<Input />
+				<Label/>
+                <Button text="Submit" width="100px" type="Accept" press="Onsubmit"/>
+
+            </f:SimpleForm>
+
+        </content>
+    </Page>
+</mvc:View>
