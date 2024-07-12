@@ -11,7 +11,7 @@
 
                 <Label text="Employee Name" />
 				<Input />
-				<Label text="Employee Id1" />
+				<Label text="Employee Id2" />
 				<Input>
 				</Input>
                 <Label text="Department" />
